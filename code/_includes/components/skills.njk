@@ -1,0 +1,10 @@
+ <section id="skills">
+        <h3 style="margin-bottom: 1rem;">Skills</h3>
+        <div class="skills-container">
+
+            {% for skill in site.skills %}
+                <div class="skill {{ skill.name }}"> <i class="{{ skill.icon }}"></i> {{ skill.name }}</div>
+            {% endfor %}
+
+        </div>
+    </section>

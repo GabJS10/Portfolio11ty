@@ -1,0 +1,335 @@
+/* Variables de colores para temas */
+:root {
+    --background-color: #1b1b1b;
+    --text-color: #f4f4f9;
+    --primary-color: #3498db;
+    --secondary-color: #e67e22;
+    --tertiary-color: #aaa;
+    --header-footer-background: #333;
+    --highlight-color: #e67e22;
+    --header-footer-text-color: #fff;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 0.5rem 0;
+}
+
+header {
+    padding: 1rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#logo {
+    display: inline-block; /* Para que el elemento ocupe solo el espacio necesario */
+}
+
+#logo img {
+    margin-top:10px;
+    width: 50px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el logo para indicar que es clickeable */
+    border-radius: 50%; /* Aplica borde redondeado */
+    overflow: hidden; /* Asegura que la imagen sea completamente redonda */
+}
+
+
+.nav-links a, .icons a {
+    color: var(--header-footer-text-color);
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+}
+
+.icons span {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+#presentation {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#presentation h1 {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #aaa;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.intro-text {
+    max-width: 600px;
+    text-align: left;
+    margin-right: 2rem;
+}
+
+.intro-text p {
+    margin-bottom: 1rem;
+}
+
+.intro-text a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro-photo {
+    text-align: center;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+    border: 3px solid var(--header-footer-background);
+}
+
+.description {
+    font-size: 1rem;
+    color: #aaa;
+}
+
+#skills {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #DADADB;
+    color: #1D1E20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease-in-out;
+    cursor: context-menu;
+
+}
+
+.skill:hover {
+    opacity: 0.8;
+}
+
+/* Colores específicos para cada skill */
+.JavaScript {
+    background: var(--tertiary-color);
+}
+
+.JavaScript:hover {
+    background: orange;
+}
+
+.TypeScript {
+    background: var(--tertiary-color);
+}
+
+.TypeScript:hover {
+    background: blue;
+}
+
+.SQL {
+    background: var(--tertiary-color);
+}
+
+.SQL:hover {
+    background: #3498db;
+}
+
+.React {
+    background: var(--tertiary-color);
+}
+
+.React:hover {
+    background: blue;
+}
+
+
+.Node {
+    background: var(--tertiary-color);
+}
+
+.Node:hover {
+    background: green;
+}
+
+.Python {
+    background: var(--tertiary-color);
+}
+
+.Python:hover {
+    background: yellow;
+}
+
+.Django {
+    background: var(--tertiary-color);
+}
+
+.Django:hover {
+    background: red;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: var(--header-footer-text-color);
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#projects {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.project {
+    background: #2c2c2c;
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project .project-image {
+    max-width: 325px; /* Ajusta el tamaño de la imagen según sea necesario */
+    border-radius: 8px;
+    margin-right: 1rem; /* Espacio entre la imagen y el texto */
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.project p {
+    margin-bottom: 1rem;
+}
+
+.project a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projects-link {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.projects-link a {
+    color: var(--highlight-color);
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+
+.projects-link a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: var(--highlight-color);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.projects-link a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+button, .dark-mode-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    outline: none;
+}
