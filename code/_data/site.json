@@ -1,38 +1,44 @@
 {
-    "MyDescription": "Estudiante de noveno semestre de Ingeniería de Sistemas en la Universidad de La Guajira, con una sólida base en desarrollo web y programación. Apasionado por aprender y aplicar nuevas tecnologías, con experiencia en proyectos personales disponibles en GitHub. Manejo de tecnologías como Next.js, JavaScript, TypeScript, y Python, así como bases de datos SQL y NoSQL. Destaco por mi capacidad de aprendizaje rápido, responsabilidad, y compromiso con la mejora continua. Busco una oportunidad para desempeñar un rol en desarrollo backend, donde pueda contribuir al crecimiento de la empresa y seguir desarrollándome profesionalmente. ",
-    "MyDescriptionEN": "Ninth semester student of Systems Engineering at the University of La Guajira, with a solid foundation in web development and programming. Passionate about learning and applying new technologies, with experience in personal projects available on GitHub. Management of technologies such as Next.js, JavaScript, TypeScript, and Python, as well as SQL and NoSQL databases. I stand out for my ability to learn quickly, responsibility, and commitment to continuous improvement. I am looking for an opportunity to play a role in backend development, where I can contribute to the growth of the company and continue developing professionally.",
-    "skills": [
-        {"name": "JavaScript", "icon": "fa-brands fa-js"},
-        {"name": "React", "icon": "fa-brands fa-react"},
-        {"name": "Python", "icon": "fa-brands fa-python"},
-        {"name": "Node", "icon": "fa-brands fa-node"},
-        {"name": "SQL", "icon": "fa-solid fa-database"}
-    ],
+  "MyDescription": "Estudiante de noveno semestre de Ingeniería de Sistemas en la Universidad de La Guajira, con una sólida base en desarrollo web y programación. Apasionado por aprender y aplicar nuevas tecnologías, con experiencia en proyectos personales disponibles en GitHub. Manejo de tecnologías como Next.js, JavaScript, TypeScript, y Python, así como bases de datos SQL y NoSQL. Destaco por mi capacidad de aprendizaje rápido, responsabilidad, y compromiso con la mejora continua. Busco una oportunidad para desempeñar un rol en desarrollo backend, donde pueda contribuir al crecimiento de la empresa y seguir desarrollándome profesionalmente. ",
+  "MyDescriptionEN": "Ninth semester student of Systems Engineering at the University of La Guajira, with a solid foundation in web development and programming. Passionate about learning and applying new technologies, with experience in personal projects available on GitHub. Management of technologies such as Next.js, JavaScript, TypeScript, and Python, as well as SQL and NoSQL databases. I stand out for my ability to learn quickly, responsibility, and commitment to continuous improvement. I am looking for an opportunity to play a role in backend development, where I can contribute to the growth of the company and continue developing professionally.",
+  "skills": [
+    { "name": "JavaScript", "icon": "fa-brands fa-js" },
+    { "name": "React", "icon": "fa-brands fa-react" },
+    { "name": "Python", "icon": "fa-brands fa-python" },
+    { "name": "Node", "icon": "fa-brands fa-node" },
+    { "name": "SQL", "icon": "fa-solid fa-database" }
+  ],
 
-    "projects": [
-        {
-            "title": "ChatApp", 
-            "description": "ChatExpress is a temporary chat application built with React, Express, and Socket.io. The application allows users to send text messages and share images, and all messages are deleted once the session is closed.",
-            "github": "https://github.com/GabJS10/ChatApp",
-            "img":"/img/ChatApp.png"
-        },
-        {
-            "title": "RoutineApp",
-            "description":"Routine App is a web application developed with Django and React to track progress in your gym workout routine. It allows users to record their daily workouts, keep an exercise history, and compare their performance over time.",
-            "github": "https://github.com/GabJS10/RoutineApp",
-            "img":"/img/routineApp.png"
-        },
-        {
-            "title": "ShortUrl",
-            "description":"ShortURL is a link shortening application that provides a REST API for shortening long URLs and generating corresponding QR codes for those short URLs.",
-            "github": "https://github.com/GabJS10/ShortURL",
-            "img":"/img/shorturl.png"
-        },
-        {
-            "title": "Portfolio",
-            "description":"Personal portfolio made with SSG (11TY)",
-            "github": "https://github.com/GabJS10/Portfolio11ty",
-            "img":"/img/portfolio.png"
-        }
-    ]
+  "projects": [
+    {
+      "title": "PymeStore",
+      "description": "PymeStore is a website that aims to be an alternative for SMEs in Riohacha, La Guajira. It speeds up their order taking while providing them with a virtual store in which to display themselves (In Riohacha, handmade' methods are used to take orders).",
+      "github": "https://github.com/GabJS10/frontend-pymes",
+      "img": "/img/PymeStore.png"
+    },
+    {
+      "title": "ChatApp",
+      "description": "ChatExpress is a temporary chat application built with React, Express, and Socket.io. The application allows users to send text messages and share images, and all messages are deleted once the session is closed.",
+      "github": "https://github.com/GabJS10/ChatApp",
+      "img": "/img/ChatApp.png"
+    },
+    {
+      "title": "RoutineApp",
+      "description": "Routine App is a web application developed with Django and React to track progress in your gym workout routine. It allows users to record their daily workouts, keep an exercise history, and compare their performance over time.",
+      "github": "https://github.com/GabJS10/RoutineApp",
+      "img": "/img/routineApp.png"
+    },
+    {
+      "title": "ShortUrl",
+      "description": "ShortURL is a link shortening application that provides a REST API for shortening long URLs and generating corresponding QR codes for those short URLs.",
+      "github": "https://github.com/GabJS10/ShortURL",
+      "img": "/img/shorturl.png"
+    },
+    {
+      "title": "Portfolio",
+      "description": "Personal portfolio made with SSG (11TY)",
+      "github": "https://github.com/GabJS10/Portfolio11ty",
+      "img": "/img/portfolio.png"
+    }
+  ]
 }
